@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(14, 13, 13);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+main {
+    align-items: center;
+    text-align: center;
+}
+
+.main-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.car-image {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    object-fit: cover; 
+    filter: brightness(60%);
+}
+
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-weight: 700;
+    color: rgb(253, 253, 253);
+    position: absolute;
+
+}
+
+p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+    background-color: rgb(14, 13, 13);
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+}
+
+
