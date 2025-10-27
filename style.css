@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Michroma&family=Montserrat:ital@0;1&family=Oswald:wght@200..700&display=swap');
 
 * {
     margin: 0;
@@ -8,21 +8,25 @@
 }
 
 .header {
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(0, 0, 0);
+
 }
 
 .nav {
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin-top: 10px;
+    height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
 }
-
 
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -39,6 +43,14 @@
     color: gray;
 }
 
+.login a {
+    background-color: rgb(179, 34, 34);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Inconsolata', monospace;
+}
+
+
 main {
     align-items: center;
     text-align: center;
@@ -53,14 +65,16 @@ main {
 
 .car-image {
     width: 100%;
-    height: 90%;
-    margin: auto;
-    object-fit: cover; 
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
     filter: brightness(60%);
 }
 
-
-h1 {
+.logo-JSCar {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -69,33 +83,309 @@ h1 {
     font-weight: 700;
     color: rgb(253, 253, 253);
     position: absolute;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
 }
 
-p {
+.logo-porsche {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
-    font-weight: 500;
+    width: 350px;
+    height: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.slogan {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 400;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    font-family: 'Inconsolata', monospace;
 }
 
-.footer {
-    background-color: rgb(14, 13, 13);
+.icones {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 50px;
+}
+
+.icones img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.icones img:hover {
+    transform: scale(1.1);
+}
+
+.whatsap {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.whatsap img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 
 }
 
-h2 {
-    color: white;
+.whatsap img:hover {
+    transform: scale(1.1);
+}
+
+.Sobre {
+    padding: 50px;
     text-align: center;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 12px;
+    background-color: #020202;
+    color: white;
+}
+
+.Sobre h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Michroma', sans-serif;
+
+}
+
+.Sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+.titulo-historia {
+    margin-top: 100px;
+
+}
+
+.Sobre img {
+    margin-top: 50px;
+    margin: 15px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    animation: alternate-reverse 1s infinite;
+}
+
+.hover-pulse {
+    width: 100px;
+    /* Defina a largura desejada */
+    height: auto;
+    /* Mantém a proporção da altura */
+    transition: transform 0.3s ease;
+    /* Transição suave para a transformação */
+}
+
+.hover-pulse:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+
+.video {
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+
+}
+
+.tituloVideos {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+
 }
 
 
+.video-container {
+    position: relative;
+    padding-bottom: 10%;
+    height: 0;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    background: #000;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.5);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 12px;
+}
+
+.video-title {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ccc;
+    font-weight: 500;
+}
+
+
+
+.services {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.services h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+}
+
+.services p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.agendamento-formulario {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    width: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.agendamento-formulario h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.agendamento-formulario form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px;
+}
+
+.agendamento-formulario label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.agendamento-formulario select,
+.agendamento-formulario input,
+.agendamento-formulario textarea {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.agendamento-formulario textarea {
+    height: 120px;
+    resize: none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.agendamento-formulario button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: rgb(179, 34, 34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.agendamento-formulario button:hover {
+    background-color: rgb(150, 28, 28);
+}
+
+.maps {
+    margin: 50px auto;
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(112, 111, 111);
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    font-family: font-family: 'Inconsolata', monospace;
+}
+
+.footer img {
+    align-items: center;
+    width: 30px;
+    margin: 10px;
+}
