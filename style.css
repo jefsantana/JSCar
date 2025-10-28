@@ -172,6 +172,7 @@ main {
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
+    text-align: center;
     text-align: justify;
 
 }
@@ -348,6 +349,7 @@ main {
 
 footer {
     background-color: #000000;
+    border-top: 1px solid rgb(177, 177, 177);
     text-align: center;
     padding: 50px 0;
     position: relative;
@@ -359,11 +361,17 @@ footer {
     align-items: center;
     width: 30px;
     margin: 10px;
+    cursor: pointer;
 }
+
 
 .footer p{
     margin-top: 15px;
     font-size: 10px;
     font-family: 'Michroma', sans-serif;
     color: rgb(243, 240, 240);
+}
+
+:target{
+    color: aqua;
 }
