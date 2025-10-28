@@ -216,9 +216,9 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .video-container h1{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
     font-size: 30px;
 }
 
@@ -348,18 +348,23 @@ main {
 
 footer {
     background-color: #000000;
-    color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px 0;
     position: relative;
     bottom: 0;
     width: 100%;
-    font-size: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .footer img {
     align-items: center;
     width: 30px;
     margin: 10px;
+}
+
+.footer p{
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: 'Michroma', sans-serif;
+    color: rgb(167, 167, 167);
+
 }
