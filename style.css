@@ -100,7 +100,7 @@ main {
 
 .slogan {
     position: absolute;
-    top: 60%;
+    top: 60vh;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
@@ -191,13 +191,14 @@ main {
     position: relative;
     cursor: pointer;
     animation: alternate-reverse 1s infinite;
+    
 }
 
 .hover-pulse {
     width: 100px;
     height: auto;
     transition: transform 0.3s ease;
-  
+    
 }
 
 .hover-pulse:hover {
@@ -205,32 +206,49 @@ main {
    
 }
 
-.video {
-   text-align: center;
-   margin-top: 200px;
+.section-video {
+    margin-top: 200px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 50px; 
+    background-color: #0a0a0a; 
 }
 
-.video-container {
-    padding-top: 5px;
-    background-color: #000000;
-    border-radius: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.video-container h1{
-    color: rgb(255, 255, 255);
-    margin: 25px;
+.titulo-videos {
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
     font-family: 'Michroma', sans-serif;
-    font-size: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+
 }
 
-.video-container iframe {
-    border: 0;
-    border-radius: 20px;
-    width: 400px;
-    height: 300px;
-    margin: 15px;
-    
+
+.porshe911-a, .Taycan, .Macan, .Boxster, .Cayenne, .Panamera {
+    width: 30%; 
+    margin: 10px; 
+    background-color: #0a0606;
+    color: aliceblue;
+    border-radius: 8px; 
+    overflow: hidden; 
 }
+
+.section-video h2{
+    font-family: 'Michroma', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    text-align: center; 
+
+}
+
+video {
+    width: 100%; 
+    height: auto;
+    cursor: pointer; 
+}
+
 
 
 
@@ -243,7 +261,7 @@ main {
 .services h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Michroma', sans-serif;
     margin-top: 30px;
 }
 
@@ -375,3 +393,5 @@ footer {
 :target{
     color: aqua;
 }
+
+
