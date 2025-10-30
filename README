@@ -1,42 +1,58 @@
-🚗 JSCar
+# 🚗 JSCar | Porsche Experience
 
-JSCar é um projeto idealizado por Jeferson Santana, criado com o objetivo de celebrar a paixão pelos carros Porsche — ícones mundiais de design, desempenho e inovação.
+A **JSCar**, idealizada por **Jeferson Santana**, é uma plataforma dedicada aos admiradores da **Porsche**.
+O site reúne informações, vídeos e curiosidades sobre os modelos mais icônicos da marca, além de oferecer um espaço para agendamento de **test drives** e **eventos exclusivos**.
 
-O site foi desenvolvido utilizando HTML e CSS, com foco em uma interface moderna, responsiva e intuitiva, reunindo informações, curiosidades e novidades sobre os modelos da marca.
+🔗 **Acesse o site:** [https://jefsantana.github.io/JSCar/](https://jefsantana.github.io/JSCar/)
 
-🌐 Sobre o Projeto
+---
 
-A JSCar nasceu do amor pelos carros da Porsche e do desejo de reunir, em um só lugar, tudo o que um verdadeiro entusiasta precisa saber.
-Nosso propósito é conectar admiradores e proprietários de Porsche em uma plataforma que respira automobilismo e tecnologia.
+## 🏁 Sobre o Projeto
 
-“Um espaço feito para quem compartilha a mesma paixão por desempenho, design e inovação.”
-— Jeferson Santana
+O projeto foi desenvolvido em **HTML e CSS puro**, com o objetivo de criar uma experiência visual **elegante, moderna e intuitiva**.
+O design valoriza a estética premium da Porsche, utilizando imagens em alta qualidade e seções bem estruturadas.
 
-Visite o site publicado: https://jefsantana.github.io/JSCar/
+---
 
-----------------------------------------------------------------------------------------------------------------------------
+## 📄 Estrutura do Site
 
+* **Home:** Apresentação da marca JSCar e destaque visual da Porsche.
+* **Quem Somos:** História da JSCar e da Porsche, com galeria de imagens.
+* **Vídeos:** Seção interativa com vídeos dos principais modelos Porsche.
+* **Agenda Online:** Formulário de agendamento para test drives e eventos.
+* **Contato e Redes Sociais:** Links para WhatsApp, Instagram, Facebook, Twitter, YouTube e LinkedIn.
 
-🚀 Como Visualizar o Projeto
+---
 
-Baixe ou clone este repositório:
+## 💻 Tecnologias Utilizadas
 
-git clone https://github.com/seuusuario/jscar.git
+* **HTML5**
+* **CSS3**
+* **Google Fonts**
+* **Google Maps (embed)**
 
+---
 
-Abra o arquivo index.html no navegador de sua preferência.
+## 🌍 Funcionalidades
 
-Explore as seções e desfrute da experiência Porsche! 🏎️
+* Exibição de vídeos com pôsteres personalizados.
+* Formulário completo de agendamento online.
+* Mapa integrado com a localização da Porsche em Stuttgart, Alemanha.
+* Links diretos para redes sociais e contato via WhatsApp.
 
-💡 Autor
+---
 
-Jeferson Santana
-📍 Desenvolvedor Web
-🔗 LinkedIn
+## 📱 Responsividade
 
-📧 jefersonsm.js@gmail.com
+O site foi desenvolvido com **design responsivo**, adaptando-se a diferentes tamanhos de tela para proporcionar uma boa experiência em **computadores, tablets e smartphones**.
 
-📜 Licença
+---
 
-Este projeto é de uso pessoal e educacional.
-Sinta-se à vontade para se inspirar e adaptar o código, desde que mantenha os devidos créditos.
+## 👨‍💻 Autor
+
+Desenvolvido por **[Jeferson Santana](https://www.linkedin.com/in/jeferson-santana-machado/)**
+📞 Contato: (34) 99635-7570
+📧 Email: [jefersonsm.js@gmail.com](mailto:jefersonsm.js@gmail.com)
+
+© 2025 **JSCar** • Todos os direitos reservados.
+
