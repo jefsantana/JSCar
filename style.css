@@ -87,7 +87,7 @@ main {
     top: 45vh;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 25vw;
+    width: 20vw;
     height: auto;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 1;
@@ -275,7 +275,7 @@ video {
 }
 
 .agendamento-formulario h1 {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 50px;
     color: rgb(255, 255, 255);
     font-family: 'Michroma', sans-serif;
