@@ -34,24 +34,8 @@ O projeto utiliza apenas tecnologias essenciais para garantir leveza e desempenh
 * **Google Fonts:** Tipografia moderna e legível.
 * **Google Maps Embed:** Exibição da localização da Porsche Stuttgart.
 
----
 
-## 🌍 Funcionalidades
 
-Recursos desenvolvidos para conectar entusiastas e facilitar a navegação.
-
-* Vídeos com pôsteres personalizados de cada modelo.
-* Formulário funcional de agendamento online.
-* Mapa interativo da Porsche Zentrum Stuttgart.
-* Ícones clicáveis das principais redes sociais.
-
----
-
-## 📱 Responsividade
-
-O layout foi projetado para se adaptar automaticamente a **telas de diferentes tamanhos**, garantindo boa experiência em **PC, tablet e celular**.
-
----
 
 ## 👨‍💻 Autor
 
