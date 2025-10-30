@@ -35,7 +35,7 @@ O projeto utiliza apenas tecnologias essenciais para garantir leveza e desempenh
 * **Google Maps Embed:** Exibição da localização da Porsche Stuttgart.
 
 
-
+---
 
 ## 👨‍💻 Autor
 
