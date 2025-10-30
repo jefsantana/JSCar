@@ -33,9 +33,9 @@
 .nav-list li a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-style: normal;
-    font-size: 16px;
+    font-size: 2vh;
     padding: 20px;
 }
 
@@ -90,7 +90,7 @@ main {
 
 .logo-porsche {
     position: absolute;
-    top: 45%;
+    top: 45vh;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 25vw;
@@ -101,7 +101,7 @@ main {
 
 .slogan {
     position: absolute;
-    top: 60vh;
+    top: 65vh;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2vh;
@@ -119,11 +119,14 @@ main {
     transform: translateX(-50%);
     display: flex;
     gap: 50px;
+    z-index: 1;
+    width: auto;
+    height: auto;   
 }
 
 .icones img {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     transition: transform 0.5s;    
 }
