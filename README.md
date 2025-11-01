@@ -1,19 +1,21 @@
-# 🚗 JSCar | Porsche Experience
+🚗 JSCar | Porsche Experience
 
 A **JSCar**, idealizada por **Jeferson Santana**, é uma plataforma dedicada aos apaixonados por **carros da Porsche**.
 Reúne informações, vídeos e curiosidades sobre os modelos da marca, com um visual moderno e navegação intuitiva.
 
 🔗 **Acesse o site:** [https://jefsantana.github.io/JSCar/](https://jefsantana.github.io/JSCar/)
 
+
+
 ---
 
-## 🏁 Sobre o Projeto
+🏁 Sobre o Projeto
 
 Criado com **HTML e CSS**, o site foi desenvolvido para transmitir a sofisticação e o desempenho característicos da Porsche, em um ambiente digital leve e interativo.
 
 ---
 
-## 📄 Estrutura do Site
+📄 Estrutura do Site
 
 Cada seção foi pensada para oferecer uma experiência completa ao visitante, destacando os principais conteúdos e interações.
 
@@ -25,7 +27,7 @@ Cada seção foi pensada para oferecer uma experiência completa ao visitante, d
 
 ---
 
-## 💻 Tecnologias Utilizadas
+💻 Tecnologias Utilizadas
 
 O projeto utiliza apenas tecnologias essenciais para garantir leveza e desempenho.
 
@@ -37,7 +39,7 @@ O projeto utiliza apenas tecnologias essenciais para garantir leveza e desempenh
 
 ---
 
-## 👨‍💻 Autor
+👨‍💻 Autor
 
 Desenvolvido por **[Jeferson Santana](https://www.linkedin.com/in/jeferson-santana-machado/)**, com dedicação e paixão pelo universo automotivo.
 
