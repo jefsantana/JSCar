@@ -6,7 +6,7 @@ Reúne informações, vídeos e curiosidades sobre os modelos da marca, com um v
 🔗 **Acesse o site:** [https://jefsantana.github.io/JSCar/](https://jefsantana.github.io/JSCar/)
 
 <p align="center">
-  <img src="./assets/2020 Porsche Taycan Turbo S Cinematic Car Video.mp4" width="600" alt="JSCar Porsche Experience">
+  <img src="./assets/img1.jpg width="600" alt="JSCar Porsche Experience">
 </p>
 
 ---
